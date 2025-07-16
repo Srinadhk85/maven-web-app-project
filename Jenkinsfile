@@ -34,7 +34,7 @@ node {
     sh """
         curl -u kk:password \
         --upload-file /var/lib/jenkins/workspace/sciptedPL-ci-cd-job/target/maven-web-application.war \
-        "http://52.207.212.160:8080/manager/text/deploy?path=/maven-web-application&update=true"
+        "http://54.166.109.79:8080/manager/text/deploy?path=/maven-web-application&update=true"
     """
    }
 } 
